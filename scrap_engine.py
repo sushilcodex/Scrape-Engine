@@ -164,7 +164,7 @@ class ArticleScraper:
 
             
 if __name__ == "__main__":
-    url = "https://www.brewin.co.uk/insights?topic=Market+news"
+    url = ""
     scraper = ArticleScraper(url)
     try:
         scraper.scrape()
